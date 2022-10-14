@@ -1,5 +1,5 @@
-import numpy as np                  # импорт бибилиотеки numpy
-import matplotlib.pyplot as plt     # импорт модуля matplotlib.pyplot
+import matplotlib.pyplot as plt  # импорт модуля matplotlib.pyplot
+import numpy as np  # импорт бибилиотеки numpy
 import quantize
 
 # Описание констант

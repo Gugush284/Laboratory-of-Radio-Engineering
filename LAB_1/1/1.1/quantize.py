@@ -1,4 +1,5 @@
-import numpy as np                  # импорт бибилиотеки numpy
+import numpy as np  # импорт бибилиотеки numpy
+
 
 def quantize_uniform(x, quant_min=-1, quant_max=1, quant_level=5):
     """Uniform quantization approach
