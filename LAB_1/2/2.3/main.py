@@ -2,8 +2,8 @@ import helpers as h
 import matplotlib.pyplot as plt  # импорт модуля matplotlib.pyplot
 import numpy as np  # импорт бибилиотеки numpy
 
-f0=10*1e3       # 10 кГц
-tau=500*1e-6    # 500 мкс
+f0=60*1e3      
+tau=100*1e-6    
 
 def sin_with_boxcar(t, tau):                            
     if 0<=t<=tau:
