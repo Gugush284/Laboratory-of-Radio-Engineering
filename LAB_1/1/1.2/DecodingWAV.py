@@ -1,8 +1,8 @@
-import numpy as np # импорт бибилиотеки numpy
-import matplotlib.pyplot as plt # импорт модуля matplotlib.pyplot
-import scipy.io.wavfile # импорт модуля scipy.io.wavfile
-
+import matplotlib.pyplot as plt  # импорт модуля matplotlib.pyplot
+import numpy as np  # импорт бибилиотеки numpy
+import scipy.io.wavfile  # импорт модуля scipy.io.wavfile
 from IPython.display import Audio
+
 Audio('glockenspiel.wav')
 
 fs, x = scipy.io.wavfile.read('glockenspiel.wav') # чтение аудиофайла
