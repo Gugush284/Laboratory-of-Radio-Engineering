@@ -2,13 +2,13 @@ import helpers as h
 import matplotlib.pyplot as plt  # импорт модуля matplotlib.pyplot
 import numpy as np  # импорт бибилиотеки numpy
 
-tau=150*1e-6 #150 мкс
+tau=1000*1e-6
 
 f_band=np.linspace(-4/tau, 4/tau, 1000) # 1000 - число точек в диапазоне, в которых вычисляется X(f)
 
 def boxcar(t, tau):
     if 0<t<tau:
-        return 0.1 # 0.1 В
+        return 1 # 1 В
     else:
         return 0.0 # 0 В
     
